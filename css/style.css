@@ -585,7 +585,8 @@ phone-fax-email strong{
 
 .navbar-inverse{
     border: none;
-    background-color: transparent;
+/*    background-color: transparent;*/
+    background: rgba(0, 0, 0, 0.7);
 }
 .wg-top-navbar{
     background: rgba(0, 0, 0, 0.7);
@@ -626,6 +627,24 @@ phone-fax-email strong{
 
 .navbar-inverse .navbar-nav li.active a{
     color:#34C6D3 ;
+    background: none;
+}
+
+
+.nav-tabs li.active .nav-link{
+    color:#34C6D3;
+    background: none;
+}
+
+.nav-tabs li.active>a:hover,
+.nav-tabs li.active>a:focus{
+    color:#34C6D3;
+}
+
+
+.nav-tabs >li>a:hover,
+.nav-tabs >li>a:focus{
+    color:#34C6D3;
     background: none;
 }
 
